@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+body {
+  font-family: "Open Sans";
+  line-height: 24px;
+}
+.div {
+  color: #fff;
+  font-size: 35px;
+}
+.day-of-week {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 23px;
+}
+.day {
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 24px;
+}
+.wrapper {
+  margin: 50px 50px;
+  display: inline-flex;
+  border-radius: 20px;
+  background-color: #ff844c;
+  padding: 10px;
+  text-align: center;
+}
+
+.day-current {
+  background-color: #fff;
+  .div {
+    color: #000;
+  }
+  .day-of-week {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
